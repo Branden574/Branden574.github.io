@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Branden Vincent-Walker — Software Engineer</title>
-  <meta name="description" content="Software Engineer building production tools, automation systems, and full-stack applications. Based in California.">
+  <meta name="description" content="Software engineer building production tools, automation systems, and full-stack applications — TypeScript, Next.js, Supabase, React Native. Based in Fresno, California.">
   <meta name="theme-color" content="#09090b">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -137,9 +137,9 @@
 
     /* Projects — CLICKABLE cards */
     .pg{display:grid;gap:24px;margin-top:56px}
-    a.pc{display:block;position:relative;padding:40px;background:var(--card);border:1px solid var(--b1);border-radius:16px;overflow:hidden;transition:all .5s var(--eo);cursor:pointer;backdrop-filter:blur(12px);text-decoration:none;color:inherit}
-    @media(min-width:768px){a.pc{padding:48px}}
-    a.pc::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.3),transparent);opacity:0;transition:opacity .5s}
+    .pc{display:block;position:relative;padding:40px;background:var(--card);border:1px solid var(--b1);border-radius:16px;overflow:hidden;transition:all .5s var(--eo);cursor:pointer;backdrop-filter:blur(12px);text-decoration:none;color:inherit}
+    @media(min-width:768px){.pc{padding:48px}}
+    .pc::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.3),transparent);opacity:0;transition:opacity .5s}
     a.pc:hover{border-color:var(--b2);background:var(--card-h);transform:translateY(-4px);box-shadow:0 20px 60px rgba(0,0,0,.4)}
     a.pc:hover::before{opacity:1}
     /* Arrow indicator on hover */
@@ -257,7 +257,7 @@
         <div class="hero-ct">
           <div class="hero-badge"><span class="hero-dot"></span>Open to opportunities</div>
           <h1 class="hero-t">Building tools<br>that <em>actually work.</em></h1>
-          <p class="hero-s">Software engineer and automation specialist. I build internal tools, workflow automation, and full-stack applications that solve real problems — from fleet management systems to warehouse inventory platforms.</p>
+          <p class="hero-s">Software engineer and automation specialist. I build internal tools, workflow automation, and full-stack products that solve real problems — from the inventory platform four warehouses run on daily to real-time social and security applications.</p>
           <div class="hero-a">
             <a href="#projects" class="bp">View My Work <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg></a>
             <a href="https://github.com/Branden574" target="_blank" rel="noopener" class="bs"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>GitHub</a>
@@ -274,12 +274,12 @@
         <div class="ab-g">
           <div class="ab-t reveal rd1">
             <p>I'm <strong>Branden Vincent-Walker</strong>, a software engineer and automation specialist based in California. I hold a B.S. in Software Engineering from <strong>Western Governors University</strong> and have been building production software since 2020.</p>
-            <p>My approach is practical: find the friction, build the fix, make it reliable. From PO automation flows that route data across school sites to warehouse inventory systems backed by Supabase — I focus on shipping software that works in the real world and measurably improves operations.</p>
-            <p>Currently freelancing and providing IT automation support across multiple campuses, while building full-stack applications on the side.</p>
+            <p>My approach is practical: find the friction, build the fix, make it reliable. That has ranged from PO automation flows routing data across school sites, to <strong>StockPilot</strong> — the inventory platform four warehouses now run on daily — to <strong>Civic Social</strong>, a discourse platform built around a ranking engine that rewards civility over outrage.</p>
+            <p>Currently freelancing and providing IT automation support across multiple campuses, while building full-stack products on the side — mostly TypeScript, Next.js, Supabase, and React Native.</p>
           </div>
           <div class="ab-s reveal rd2">
             <div class="sc"><div class="sn">B.S.</div><div class="sll">Software Engineering, WGU</div></div>
-            <div class="sc"><div class="sn">5+</div><div class="sll">Years building software</div></div>
+            <div class="sc"><div class="sn">6+</div><div class="sll">Years building software</div></div>
             <div class="sc"><div class="sn">40%</div><div class="sll">Manual entry reduced</div></div>
             <div class="sc"><div class="sn">CA</div><div class="sll">Based in Fresno, California</div></div>
           </div>
@@ -293,44 +293,53 @@
       <div class="c">
         <div class="reveal"><span class="sl">Featured Work</span><h2 class="st">Things I've <em>built.</em></h2><p class="sd">Production applications and automation systems solving real-world problems.</p></div>
         <div class="pg">
-          <!-- Project 1 -->
-          <a href="https://github.com/Branden574" target="_blank" rel="noopener" class="pc reveal rd1">
+          <a href="https://github.com/Branden574/StockPilot" target="_blank" rel="noopener" class="pc reveal rd1">
             <span class="pc-arrow"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg></span>
+            <div class="ph"><span class="pt-l">Production Platform</span><div class="pls"><span class="pl-s" style="color:var(--gr)"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12l3 3 5-5"/></svg>Live</span></div></div>
+            <h3 class="ptt">StockPilot &mdash; Warehouse Operations Platform</h3>
+            <p class="pds">The internal inventory system for L4L Fresno, running across four warehouses. A Next.js 16 dashboard for planning and reporting, plus an Expo iOS and Android app for scanning, counting, and adjustments on the warehouse floor — all over a Supabase Postgres backend.</p>
+            <div class="pf"><span class="pfi">Expo iOS &amp; Android app for scanning and cycle counts</span><span class="pfi">Gemini-powered shelf scanning and PO import OCR</span><span class="pfi">Supabase Postgres 16 with row-level security</span><span class="pfi">Turborepo monorepo — web, mobile, shared core</span><span class="pfi">In production across four warehouses</span><span class="pfi">Automated notifications via Resend &amp; React Email</span></div>
+            <div class="ptc"><span class="tp">Next.js 16</span><span class="tp">TypeScript</span><span class="tp">Expo / React Native</span><span class="tp">Supabase</span><span class="tp">Turborepo</span><span class="tp">Tailwind v4</span></div>
+          </a>
+          <a href="https://github.com/Branden574/civic-social" target="_blank" rel="noopener" class="pc reveal rd2">
+            <span class="pc-arrow"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg></span>
+            <div class="ph"><span class="pt-l">Full-Stack Platform</span><div class="pls"><span class="pl-s" style="color:var(--t3)"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>In Development</span></div></div>
+            <h3 class="ptt">Civic Social &mdash; Civic Discourse Platform</h3>
+            <p class="pds">A political social platform built on the opposite incentive from the usual feed: civility is rewarded, outrage is demoted. The ranking engine scores posts on tone, viewpoint diversity, and substantive engagement rather than raw engagement volume.</p>
+            <div class="pf"><span class="pfi">Quality-weighted ranking engine over six signals</span><span class="pfi">WebRTC voice rooms for live structured debates</span><span class="pfi">Real-time notifications and presence via Pusher</span><span class="pfi">Prisma and PostgreSQL data layer</span><span class="pfi">Vitest and Playwright test coverage</span></div>
+            <div class="ptc"><span class="tp">Next.js</span><span class="tp">TypeScript</span><span class="tp">Prisma</span><span class="tp">PostgreSQL</span><span class="tp">WebRTC</span><span class="tp">Pusher</span></div>
+          </a>
+          <a href="https://github.com/Branden574/threatorbit" target="_blank" rel="noopener" class="pc reveal rd3">
+            <span class="pc-arrow"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg></span>
+            <div class="ph"><span class="pt-l">Security Platform</span><div class="pls"><span class="pl-s" style="color:var(--gr)"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12l3 3 5-5"/></svg>Open Source</span></div></div>
+            <h3 class="ptt">ThreatOrbit &mdash; 3D Threat Intelligence</h3>
+            <p class="pds">Real-time global cyber attack visualization for security operations teams. Aggregates seven public threat feeds onto an interactive 3D globe, maps every event to MITRE ATT&amp;CK, and exports to SIEM tooling.</p>
+            <div class="pf"><span class="pfi">Interactive 3D attack globe with severity-coded arcs</span><span class="pfi">7 live feeds — ThreatFox, URLhaus, CISA KEV, DShield</span><span class="pfi">MITRE ATT&amp;CK mapping with tactic heatmap</span><span class="pfi">Alert rules routed to Slack, Teams, webhook, email</span><span class="pfi">Incident management with assignment and comments</span><span class="pfi">SIEM export — CEF, STIX 2.1, JSON Lines</span></div>
+            <div class="ptc"><span class="tp">Next.js</span><span class="tp">TypeScript</span><span class="tp">Three.js</span><span class="tp">Prisma</span><span class="tp">NextAuth</span><span class="tp">Docker</span></div>
+          </a>
+          <a href="https://github.com/Branden574/Sizzle" target="_blank" rel="noopener" class="pc reveal rd4">
+            <span class="pc-arrow"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg></span>
+            <div class="ph"><span class="pt-l">Mobile App</span><div class="pls"><span class="pl-s" style="color:var(--t3)"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>In Development</span></div></div>
+            <h3 class="ptt">Sizzle &mdash; Recipe Video App</h3>
+            <p class="pds">Watch it, then cook it. A full-screen, TikTok-style video feed of recipes from home cooks — swipe, save, cook. Built as a typed monorepo with a shared API contract between the React client and the Hono backend.</p>
+            <div class="pf"><span class="pfi">Full-screen swipeable recipe video feed</span><span class="pfi">Hono API — auth, feeds, recipes, uploads</span><span class="pfi">Supabase Postgres with versioned migrations</span><span class="pfi">Shared DTO package keeps client and API in contract</span><span class="pfi">Zustand state management</span></div>
+            <div class="ptc"><span class="tp">React</span><span class="tp">TypeScript</span><span class="tp">Vite</span><span class="tp">Hono</span><span class="tp">Supabase</span><span class="tp">Zustand</span></div>
+          </a>
+          <div class="pc reveal rd1">
             <div class="ph"><span class="pt-l">Production App</span><div class="pls"><span class="pl-s" style="color:var(--gr)"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12l3 3 5-5"/></svg>Live</span></div></div>
             <h3 class="ptt">Fleet Vehicle Checkout System</h3>
             <p class="pds">A full-stack web app for Learn4Life's fleet management. Staff check out vehicles, document damage via interactive diagrams, and auto-email completed PDF forms to the fleet coordinator.</p>
             <div class="pf"><span class="pfi">Interactive damage diagram with free-draw &amp; markers</span><span class="pfi">Vehicle-specific odometer memory across 5 vehicles</span><span class="pfi">Auto-generated PDF forms via EmailJS</span><span class="pfi">iPad-optimized with iOS Safari scroll fixes</span><span class="pfi">Undo functionality for damage markings</span><span class="pfi">Separate signature sections per role</span></div>
             <div class="ptc"><span class="tp">JavaScript</span><span class="tp">HTML/CSS</span><span class="tp">EmailJS</span><span class="tp">PDF Generation</span><span class="tp">Canvas API</span><span class="tp">Netlify</span></div>
-          </a>
-          <!-- Project 2 -->
-          <a href="https://github.com/Branden574" target="_blank" rel="noopener" class="pc reveal rd2">
-            <span class="pc-arrow"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg></span>
+          </div>
+          <div class="pc reveal rd2">
             <div class="ph"><span class="pt-l">Automation</span><div class="pls"><span class="pl-s" style="color:var(--gr)"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12l3 3 5-5"/></svg>Deployed</span></div></div>
             <h3 class="ptt">PO Automation Flow</h3>
             <p class="pds">Extracts text from PDF purchase orders, routes data to Excel by site (CVSII, CVW, MLA, AMB), and emails updates automatically. Eliminated manual data entry for purchase order processing across multiple campuses.</p>
             <div class="pf"><span class="pfi">PDF text extraction and parsing</span><span class="pfi">Multi-site data routing to Excel</span><span class="pfi">Automated email notifications</span><span class="pfi">Power Automate integration</span></div>
             <div class="ptc"><span class="tp">Power Automate</span><span class="tp">Python</span><span class="tp">RESTful APIs</span><span class="tp">Excel</span><span class="tp">SharePoint</span></div>
-          </a>
-          <!-- Project 3 -->
-          <a href="https://github.com/Branden574" target="_blank" rel="noopener" class="pc reveal rd3">
-            <span class="pc-arrow"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg></span>
-            <div class="ph"><span class="pt-l">Full-Stack System</span><div class="pls"><span class="pl-s" style="color:var(--gr)"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12l3 3 5-5"/></svg>Deployed</span></div></div>
-            <h3 class="ptt">Warehouse Inventory Management</h3>
-            <p class="pds">A warehouse inventory management system with Supabase backend. Automated stock reconciliation reduced manual entry by 40%, with real-time reporting dashboards connecting Excel, SharePoint, and AWS.</p>
-            <div class="pf"><span class="pfi">Automated stock reconciliation</span><span class="pfi">40% reduction in manual entry</span><span class="pfi">Real-time reporting dashboards</span><span class="pfi">Excel, SharePoint &amp; AWS integration</span></div>
-            <div class="ptc"><span class="tp">Python</span><span class="tp">PowerShell</span><span class="tp">Supabase</span><span class="tp">AWS</span><span class="tp">APIs</span></div>
-          </a>
-          <!-- Project 4 -->
-          <a href="https://github.com/Branden574" target="_blank" rel="noopener" class="pc reveal rd4">
-            <span class="pc-arrow"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg></span>
-            <div class="ph"><span class="pt-l">Full-Stack App</span><div class="pls"><span class="pl-s" style="color:var(--t3)"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>In Development</span></div></div>
-            <h3 class="ptt">Social Discussion Platform</h3>
-            <p class="pds">A social application with threaded posts, replies, structured debates, real-time notifications, and engagement tracking for community interaction.</p>
-            <div class="pf"><span class="pfi">Post and reply system with threading</span><span class="pfi">Structured debates feature</span><span class="pfi">Real-time notification system</span><span class="pfi">Reply count sync and engagement metrics</span></div>
-            <div class="ptc"><span class="tp">Full-Stack</span><span class="tp">JavaScript</span><span class="tp">Real-Time</span><span class="tp">Notifications</span></div>
-          </a>
-          <!-- Project 5 -->
-          <a href="https://github.com/Branden574/automatic-printer-script" target="_blank" rel="noopener" class="pc reveal rd1">
+          </div>
+          <a href="https://github.com/Branden574/automatic-printer-script" target="_blank" rel="noopener" class="pc reveal rd3">
             <span class="pc-arrow"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg></span>
             <div class="ph"><span class="pt-l">IT Automation</span><div class="pls"><span class="pl-s" style="color:var(--gr)"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12l3 3 5-5"/></svg>Open Source</span></div></div>
             <h3 class="ptt">Network Printer Deployment Script</h3>
@@ -351,12 +360,12 @@
           <div class="skc reveal rd1">
             <div class="ski"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
             <h3 class="skt">Development</h3>
-            <ul class="skl"><li>JavaScript / TypeScript</li><li>Python</li><li>HTML &amp; CSS</li><li>React</li><li>Node.js</li><li>PowerShell</li></ul>
+            <ul class="skl"><li>TypeScript / JavaScript</li><li>React &amp; Next.js</li><li>React Native (Expo)</li><li>Node.js &amp; Hono</li><li>Python</li><li>PowerShell</li></ul>
           </div>
           <div class="skc reveal rd2">
             <div class="ski"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
             <h3 class="skt">Automation &amp; APIs</h3>
-            <ul class="skl"><li>Power Automate</li><li>RESTful APIs</li><li>Supabase</li><li>AWS Integration</li><li>SharePoint / Excel</li><li>EmailJS</li></ul>
+            <ul class="skl"><li>Supabase</li><li>PostgreSQL &amp; Prisma</li><li>Power Automate</li><li>RESTful APIs</li><li>AWS Integration</li><li>SharePoint / Excel</li></ul>
           </div>
           <div class="skc reveal rd3">
             <div class="ski"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
@@ -384,6 +393,7 @@
                   <li>Designed and implemented automation systems for clients using Python, Power Automate, and RESTful APIs</li>
                   <li>Built a PO Automation Flow that extracts text from PDF purchase orders, routes data to Excel by site, and emails updates automatically</li>
                   <li>Developed a warehouse inventory management system with Python, PowerShell, and Supabase — automated stock reconciliation, reducing manual entry by 40%</li>
+                  <li>Rebuilt that system as StockPilot — a Next.js 16 + Expo + Supabase platform now running as the internal inventory system across four warehouses</li>
                   <li>Created API-based integrations connecting Excel, SharePoint, and AWS for real-time reporting dashboards</li>
                   <li>Delivered automation solutions improving productivity and system reliability across business environments</li>
                 </ul>
@@ -440,10 +450,12 @@
       <div class="c">
         <div class="reveal"><span class="sl">Open Source</span><h2 class="st">On <em>GitHub.</em></h2><p class="sd">Selected repositories and public work.</p></div>
         <div class="rg">
-          <a href="https://github.com/Branden574/automatic-printer-script" target="_blank" rel="noopener" class="rc reveal rd1"><div class="rn">automatic-printer-script</div><p class="rds">PowerShell automation tool with GUI for batch network printer deployment via TCP/IP ports.</p><div class="rm"><span class="rl"><span class="rld" style="background:#012456"></span>PowerShell</span></div></a>
-          <a href="https://github.com/Branden574/Survey-Form" target="_blank" rel="noopener" class="rc reveal rd2"><div class="rn">Survey-Form</div><p class="rds">Responsive survey form — HTML/CSS fundamentals.</p><div class="rm"><span class="rl"><span class="rld" style="background:#e34c26"></span>HTML</span></div></a>
-          <a href="https://github.com/Branden574/california-website" target="_blank" rel="noopener" class="rc reveal rd3"><div class="rn">california-website</div><p class="rds">Regional information website project.</p><div class="rm"><span class="rl"><span class="rld" style="background:#e34c26"></span>HTML</span></div></a>
-          <a href="https://github.com/Branden574/html-portfolio" target="_blank" rel="noopener" class="rc reveal rd4"><div class="rn">html-portfolio</div><p class="rds">Early portfolio project — foundational web development.</p><div class="rm"><span class="rl"><span class="rld" style="background:#e34c26"></span>HTML</span></div></a>
+          <a href="https://github.com/Branden574/fitness-training-platform" target="_blank" rel="noopener" class="rc reveal rd1"><div class="rn">fitness-training-platform</div><p class="rds">Full-stack platform for personal trainers — client management, scheduling, workout and nutrition tracking, with a Capacitor mobile build.</p><div class="rm"><span class="rl"><span class="rld" style="background:#3178c6"></span>TypeScript</span></div></a>
+          <a href="https://github.com/Branden574/vending-machine-web" target="_blank" rel="noopener" class="rc reveal rd2"><div class="rn">vending-machine-web</div><p class="rds">Marketing site and lead dashboard for a vending equipment business — Next.js, Prisma, and an admin CRM.</p><div class="rm"><span class="rl"><span class="rld" style="background:#3178c6"></span>TypeScript</span></div></a>
+          <a href="https://github.com/Branden574/El-Ranchito-Bakery" target="_blank" rel="noopener" class="rc reveal rd3"><div class="rn">El-Ranchito-Bakery</div><p class="rds">Bakery storefront with Three.js product scenes, Sanity CMS, and Stripe checkout.</p><div class="rm"><span class="rl"><span class="rld" style="background:#3178c6"></span>TypeScript</span></div></a>
+          <a href="https://github.com/Branden574/FresnoRose" target="_blank" rel="noopener" class="rc reveal rd4"><div class="rn">FresnoRose</div><p class="rds">The Rosè — nightlife and event-booking platform with cinematic scroll animations and an admin booking dashboard.</p><div class="rm"><span class="rl"><span class="rld" style="background:#f1e05a"></span>JavaScript</span></div></a>
+          <a href="https://github.com/Branden574/enterprise-inventory-system" target="_blank" rel="noopener" class="rc reveal rd1"><div class="rn">enterprise-inventory-system</div><p class="rds">Inventory management system with performance monitoring and reliability instrumentation.</p><div class="rm"><span class="rl"><span class="rld" style="background:#f1e05a"></span>JavaScript</span></div></a>
+          <a href="https://github.com/Branden574/automatic-printer-script" target="_blank" rel="noopener" class="rc reveal rd2"><div class="rn">automatic-printer-script</div><p class="rds">PowerShell automation tool with GUI for batch network printer deployment via TCP/IP ports.</p><div class="rm"><span class="rl"><span class="rld" style="background:#012456"></span>PowerShell</span></div></a>
         </div>
       </div>
     </section>
